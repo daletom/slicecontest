@@ -1,0 +1,55 @@
+{
+  "id": "image_slider",
+  "type": "SharedSlice",
+  "name": "ImageSlider",
+  "description": "ImageSlider",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "ImageSlider",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Description",
+            "placeholder": "A nice description of your product"
+          }
+        },
+        "mainimage": {
+          "type": "Image",
+          "config": {
+            "id": "mainimage",
+            "label": "",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {
+        "imageslider": {
+          "config": {
+            "label": "",
+            "constraint": {
+              "width": 800,
+              "height": 600
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      }
+    }
+  ]
+}

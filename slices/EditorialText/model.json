@@ -1,0 +1,31 @@
+{
+  "id": "editorial_text",
+  "type": "SharedSlice",
+  "name": "EditorialText",
+  "description": "EditorialText",
+  "variations": [{
+    "id": "default-slice",
+    "name": "Default slice",
+    "docURL": "...",
+    "version": "sktwi1xtmkfgx8626",
+    "description": "EditorialText",
+    "primary": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "single": "heading1",
+          "label": "Title",
+          "placeholder": "This is where it all begins..."
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "single": "paragraph",
+          "label": "Description",
+          "placeholder": "A nice description of your product"
+        }
+      }
+    }
+  }]
+}

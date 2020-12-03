@@ -1,0 +1,68 @@
+{
+  "id": "marketing_sale",
+  "type": "SharedSlice",
+  "name": "MarketingSale",
+  "description": "MarketingSale",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MarketingSale",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Title",
+            "placeholder": "This is where it all begins..."
+          }
+        },
+        "description": {
+          "config": {
+            "label": "description",
+            "placeholder": "Description of sale/product",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        },
+        "saleimage": {
+          "config": {
+            "label": "Sale Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "saleurl": {
+          "type": "Link",
+          "config": {
+            "label": "",
+            "id": "saleurl",
+            "placeholder": "",
+            "allowTargetBlank": true
+          }
+        },
+        "bgcolor": {
+          "config": {
+            "label": "",
+            "placeholder": ""
+          },
+          "type": "Color"
+        },
+        "buttontext": {
+          "config": {
+            "label": "button text",
+            "placeholder": "text for the button",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,rtl"
+          },
+          "type": "StructuredText"
+        }
+      },
+      "items": {}
+    }
+  ]
+}
